@@ -1,9 +1,11 @@
-export class BankadminPage {
+import { browser, element, by } from 'protractor';
+
+export class AdminPortalPage {
   navigateTo() {
     return browser.get('/');
   }
 
   getParagraphText() {
-    return element(by.css('bankadmin-app h1')).getText();
+    return element(by.css('app-root h1')).getText();
   }
 }

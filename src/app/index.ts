@@ -1,2 +1,2 @@
-export {environment} from './environment';
-export {BankadminAppComponent} from './bankadmin.component';
+export * from './app.component';
+export * from './app.module';
